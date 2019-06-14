@@ -9,26 +9,29 @@
     </head>
 
     <body>
-     <h1>Ingresa tu contraseña a cifrar.</h1>
+     <h1>Ingresa tu contraseña a cifrar</h1>
      <br>
      <br>
      <form>
-       <label for="password-cipher">Contraseña a cifrar</label>
+       <label for="password-cipher"><strong>Contraseña a cifrar</strong></label>
         <br>
         <br>
         <input
           type="contraseñaCifrar"
           id="cifrarContraseña"
-          placeholder="Contraseña"
+          placeholder="Ingresa tu Contraseña "
           name="cifrarContraseña"
           required
         />
           <br>
           <br>
+          <label for="password-cipher"><strong>Indica el número de posiciones a utilizar para cifrado</strong></label>
+          <br>
+          <br>
           <input
             type="offset"
             id="offsetCifrado"
-            placeholder="Indica el número a utilizar para cifrado"
+            placeholder="Posiciones para cifrar"
             name="offsetCifrado"
             required
 
@@ -37,9 +40,14 @@
         <input type="button" name="btnCifrar" value="Cifrar Contraseña" onclick="window.cipher.encode();" />
 
       </form>
-
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
       <form>
-      <label for="password-ciphered">Contraseña Cifrada</label>
+      <label for="password-ciphered"><strong>Contraseña Cifrada</strong></label>
       <input
         type="contraseñaCifrada"
         id="contraseñaCifrada"
