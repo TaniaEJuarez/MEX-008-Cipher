@@ -1,7 +1,5 @@
 # Código César
 
-![caeser-cipher] https://cdn-appsourcing.pressidium.com/wp-content/uploads/2018/06/blog-contrasena-segura.jpg
-
 El uso de la tecnología se hace cada vez mas necesario. Necesitamos contraseñas para diversas cuentas:
 correo electrónico, redes sociales, aplicaciones, bancos, descarga de información en diversos portales,
 acceso a tramites del gobierno, por mencionar los mas básicos.
@@ -24,11 +22,11 @@ Asimismo, esta aplicación permite descifrar la contraseña en caso necesario.
 
 ### Benchmarking
 Aplicaciones de uso similar:
- Password
- LastPass
- Dashlane
- Sticky password
- Bitwarden
+* Password
+* LastPass
+* Dashlane
+* Sticky password
+* Bitwarden
 
 ## Encuesta Detección de Necesidades
 
