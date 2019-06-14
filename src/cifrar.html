@@ -1,31 +1,58 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Cifrado Cesar</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
+  <section id="cifrar">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Cifrado Cesar</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
 
- <body>
-   <h1>Ingresa tu contraseña a cifrar. Debe contener 8 caracteres, sin espacios ni signos de puntuación.</h1>
-   <br>
-   <br>
-   <form>
-     <label for="password-cipher">Contraseña a cifrar</label>
+    <body>
+     <h1>Ingresa tu contraseña a cifrar.</h1>
+     <br>
+     <br>
+     <form>
+       <label for="password-cipher">Contraseña a cifrar</label>
+        <br>
+        <br>
+        <input
+          type="contraseñaCifrar"
+          id="cifrarContraseña"
+          placeholder="Contraseña"
+          name="cifrarContraseña"
+          required
+        />
+          <br>
+          <br>
+          <input
+            type="offset"
+            id="offsetCifrado"
+            placeholder="Indica el número a utilizar para cifrado"
+            name="offsetCifrado"
+            required
+
+          />
+
+        <input type="button" name="btnCifrar" value="Cifrar Contraseña" onclick="window.cipher.encode();" />
+
+      </form>
+
+      <form>
+      <label for="password-ciphered">Contraseña Cifrada</label>
       <input
-      type="contraseñaCifrar"
-      id="cifrarContraseña"
-      placeholder="Contraseña"
-      name="cifrarContraseña"
-      required
-  />
-</form>
+        type="contraseñaCifrada"
+        id="contraseñaCifrada"
+        placeholder="Contraseña Cifrada"
+        name="contraseñaCifrada"
+        required
+      />
+      </form>
 
-<input type="submit" name="btnCifrar" value="Cifrar Contraseña" />
      </body>
 
 
-    <script src="script.js"></script>
-
+    <script src="cipher.js">
+    </script>
+</section>
 </html>

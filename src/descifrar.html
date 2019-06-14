@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<section id="descifrar">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -12,20 +13,44 @@
    <br>
    <br>
    <form>
-     <label for="password-descipher">Descifrar contraseña</label>
+     <label for="password-cipher">Contraseña a Descifrar</label>
+      <br>
+      <br>
       <input
-      type="contraseñaDescifrar"
-      id="descifrarContraseña"
-      placeholder="Contraseña"
-      name="descifrarContraseña"
-      required
-  />
-</form>
+        type="contraseñaDescifrar"
+        id="descifrarContraseña"
+        placeholder="Contraseña a descifrar"
+        name="descifrarContraseña"
+        required
+      />
+        <br>
+        <br>
+        <input
+          type="offset"
+          id="offsetDescifrado"
+          placeholder="Indica el número a utilizar para descifrado"
+          name="offsetDescifrado"
+          required
 
-<input type="submit" name="btnDescifrar" value="Descifrar Contraseña" />
+        />
+
+      <input type="button" name="btnDescifrar" value="Descifrar Contraseña" onclick="window.cipher.decode();" />
+
+    </form>
+
+    <form>
+    <label for="password-ciphered">Contraseña Cifrada</label>
+    <input
+      type="contraseñaDescifrada"
+      id="contraseñaDescifrada"
+      placeholder="Contraseña Descifrada"
+      name="contraseñaDescifrada"
+      required
+    />
+    </form>
      </body>
 
 
-    <script src="script.js"></script>
-
+    <script src="cipher.js"></script>
+</section>
 </html>
