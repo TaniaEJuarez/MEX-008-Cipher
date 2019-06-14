@@ -1,3 +1,52 @@
+# Código César
+
+![caeser-cipher] https://cdn-appsourcing.pressidium.com/wp-content/uploads/2018/06/blog-contrasena-segura.jpg
+
+El uso de la tecnología se hace cada vez mas necesario. Necesitamos contraseñas para diversas cuentas:
+correo electrónico, redes sociales, aplicaciones, bancos, descarga de información en diversos portales,
+acceso a tramites del gobierno, por mencionar los mas básicos.
+Hay una parte de la población que se ha ido integrando a este mundo tecnológico y no ha sido fácil, ya
+que el estilo de vida, tabúes y desconfianza, hacen este cambio complejo y en ciertas ocasiones
+complicado. Se trata de los adultos. Personas de 50 años en adelante que están conociendo y haciendo
+uso del internet y de estas herramientas tecnológicas. La mayoría de ellos tiene al menos acceso a dos
+herramientas: correo electrónico y alguna aplicación en bancos.
+Dado que requieren de un cierto grado de complejidad al momento de crear una contraseña segura, la
+mayoría de ellos se ha enfrentado a una situación: no recuerdan sus contraseñas.
+Es por ello, que, viendo su necesidad, se ha desarrollado este programa de cifrado, misma que permite
+que al tener una contraseña quizá muy coloquial y fácil de recordar, puedan cifrarla y darle un nivel de
+seguridad.
+Esta aplicación permite al usuario acceder y proporcionar su contraseña a 8 caracteres en letras
+mayúsculas y sin espacios, teniendo como resultado su contraseña cifrada en código Cesar, dándole al
+usuario una contraseña segura y fácil de recordar.
+Asimismo, esta aplicación permite descifrar la contraseña en caso necesario.
+
+## Desarrollo de producto
+
+### Benchmarking
+Aplicaciones de uso similar:
+ Password
+ LastPass
+ Dashlane
+ Sticky password
+ Bitwarden
+
+## Encuesta Detección de Necesidades
+
+Esta es la encuesta que me permitió detectar las necesidades del usuario y llegar al modelo del producto:
+
+1. Edad
+2. Sexo
+3. Ocupación
+4. ¿Tiene una cuenta de correo?
+5. ¿Cuáles son las aplicaciones que mas usa?
+6. ¿Qué opina de las contraseñas?
+7. ¿Cuántas veces ha olvidado su contraseña?
+8. ¿Haría uso de una aplicación que codificara su contraseña para hacerla mas segura?
+9. ¿Conoce alguna? Si no ¿Qué aplicación es?
+10. ¿Qué características debería tener esta aplicación?
+
+
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
