@@ -5,7 +5,11 @@ let cajaResultado = document.getElementById('contraseñaCifrada');
 const btnCifrar=document.getElementById("btnCifrar");
 btnCifrar.addEventListener("click", () =>{
 
-  const strEncode = window.cipher.encode(offset.value,strToEncode.value)
-  cajaResultado.value = strEncode;  
+  const strEncode = window.cipher.encode(offset.value,strToEncode.value);
+  cajaResultado.value = strEncode;
 
+})
+
+document.getElementById("salir").addEventListener("click", ()=>{
+location.href = "exit.html"
 })

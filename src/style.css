@@ -1,10 +1,27 @@
 #home, #menu, #cifrar, #descifrar, #exit{
   /* background-color: lightskyblue; */
   font-family: 'Anton', sans-serif;
-  text-align: center;
+  text-align: center; /*alineacion de todos los textos*/
+  text-shadow: 3px 2px white; /*sombrea el texto*/
   padding:0px;
 }
 body{
-background: url("https://image.freepik.com/foto-gratis/portatil-abierto-pantalla-blanca-blanco-escritorio-blanco-contra-fondo-madera-negro_23-2147979109.jpg")no-repeat center top fixed;
+background: url("https://image.freepik.com/foto-gratis/portatil-abierto-pantalla-blanca-blanco-escritorio-blanco-contra-fondo-madera-negro_23-2147979109.jpg");
+background-repeat: no-repeat; /*solo una imagen*/
+background-position: center top; /*posicion de la imagen de fondo*/
+margin-top: 100px; /*margen del texto en relacion a la parte de arriba*/
+background-attachment: fixed; /*scroll. La imagen se queda fija*/
 
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
 }

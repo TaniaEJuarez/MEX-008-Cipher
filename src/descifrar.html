@@ -26,7 +26,7 @@
         <br>
         <br>
         <br>
-        <label for="password-cipher"><strong>Indica el número de posiciones que usaste para descifrado</strong></label>
+        <label for="password-cipher"><strong>Indica el número de posiciones que usaste para cifrado</strong></label>
         <br>
         <br>
         <input
@@ -38,7 +38,7 @@
 
         />
 
-      <input type="button" name="btnDescifrar" value="Descifrar Contraseña" onclick="window.cipher.decode();" />
+      <input type="button" id="btnDescifrar" name="btnDescifrar" value="Descifrar Contraseña" />
 
     </form>
 
@@ -57,10 +57,16 @@
       name="contraseñaDescifrada"
       required
     />
+    <br>
+    <br>
+    <br>
+    <br>
+    <button type="text" id="salir">Salir</button>
+
     </form>
      </body>
 
-
-    <script src="cipher.js"></script>
-</section>
+     <script src="cipher.js"></script>
+     <script src="decodeVariables.js"></script>
+   </section>
 </html>
