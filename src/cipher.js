@@ -40,7 +40,7 @@ window.cipher = {
     //aplicar el ciclo for
     for (let i = 0; i < strToDecodeUp.length; i++) {
       let charToDecodeASCII=strToDecodeUp.charCodeAt(i);
-      if(charToDecodeASCII>=90 && charToDecodeASCII<=65){
+      if(charToDecodeASCII>=65 && charToDecodeASCII<=90){
     // aplicar la formula de cifrado cesar (x+n)%26
       let valorDecode = (charToDecodeASCII+65-offset)%26+65;
       strDecode = strDecode + String.fromCharCode(valorDecode);
@@ -48,7 +48,6 @@ window.cipher = {
     } else if(charToDecodeASCII >= 97 && charToDecodeASCII <= 122){
       let valorDecode = (charToDecodeASCII- 97 -offset)%26 +97;
       strDecode = strDecode + String.fromCharCode(valorDecode);
-      console.log(strToDecode)
 
       // retornar signos y espacios con offset 33
     } else {
