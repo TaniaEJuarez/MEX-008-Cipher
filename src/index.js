@@ -1,7 +1,7 @@
-document.getElementById("btnCifrar").addEventListener("click", ()=>{
+document.getElementById("btn-cifrar").addEventListener("click", ()=>{
   location.href = "cifrar.html"
 })
 
-document.getElementById("btnDescifrar").addEventListener("click", ()=>{
+document.getElementById("btn-descifrar").addEventListener("click", ()=>{
   location.href = "descifrar.html"
 })

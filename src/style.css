@@ -1,10 +1,10 @@
 #home, #menu, #cifrar, #descifrar, #exit{
-  //background: lightskyblue;
-  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+  /* background-color: lightskyblue; */
+  font-family: 'Anton', sans-serif;
   text-align: center;
-  padding:45px;
-//}
+  padding:0px;
+}
 body{
-background: url("https://www.appsourcing.net/wp-content/uploads/2018/06/blog-contrasena-segura.jpg")no-repeat center top fixed;
+background: url("https://image.freepik.com/foto-gratis/portatil-abierto-pantalla-blanca-blanco-escritorio-blanco-contra-fondo-madera-negro_23-2147979109.jpg")no-repeat center top fixed;
 
 }

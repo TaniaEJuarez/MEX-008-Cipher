@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html>
   <section id="cifrar">
     <head>
       <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width">
+      <meta name="viewport" content="initial-scale=1">
       <title>Cifrado Cesar</title>
       <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
@@ -37,7 +38,7 @@
 
           />
 
-        <input type="button" name="btnCifrar" value="Cifrar Contraseña" onclick="window.cipher.encode();" />
+        <input type="button" id="btnCifrar" name="btnCifrar" value="Cifrar Contraseña" />
 
       </form>
           <br>
@@ -60,7 +61,8 @@
      </body>
 
 
-    <script src="cipher.js">
-    </script>
+    <script src="cipher.js"></script>
+    <script src="cipherVariables.js"></script>
+
 </section>
 </html>
