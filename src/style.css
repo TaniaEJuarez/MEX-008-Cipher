@@ -1,6 +1,6 @@
 #home, #menu, #cifrar, #descifrar, #exit{
   /* background-color: lightskyblue; */
-  font-family: 'Anton', sans-serif;
+  font-family: 'Michroma', sans-serif;
   text-align: center; /*alineacion de todos los textos*/
   text-shadow: 3px 2px white; /*sombrea el texto*/
   padding:0px;
@@ -9,7 +9,8 @@ body{
 background: url("https://image.freepik.com/foto-gratis/portatil-abierto-pantalla-blanca-blanco-escritorio-blanco-contra-fondo-madera-negro_23-2147979109.jpg");
 background-repeat: no-repeat; /*solo una imagen*/
 background-position: center top; /*posicion de la imagen de fondo*/
-margin-top: 100px; /*margen del texto en relacion a la parte de arriba*/
+background-size: cover;
+margin-top: 175px; /*margen del texto en relacion a la parte de arriba*/
 background-attachment: fixed; /*scroll. La imagen se queda fija*/
 
 }
