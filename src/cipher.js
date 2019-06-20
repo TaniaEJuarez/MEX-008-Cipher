@@ -37,18 +37,17 @@ window.cipher = {
   let strToDecodeUp=strToDecode;
     //guardar el dato en una string vacia
     let strDecode="";
-    //aplicar el ciclo for
+    //aplicar el ciclo for para recorrer caracter por caracter
     for (let i = 0; i < strToDecodeUp.length; i++) {
       let charToDecodeASCII=strToDecodeUp.charCodeAt(i);
       if(charToDecodeASCII>=65 && charToDecodeASCII<=90){
-    // aplicar la formula de cifrado cesar (x+n)%26
+    // aplicar la formula de cifrado cesar (x+65-n)%26+65
       let valorDecode = (charToDecodeASCII+65-offset)%26+65;
       strDecode = strDecode + String.fromCharCode(valorDecode);
-
+    // retornar "abcdefghijklmnopqrstuvwxyz" para "hijklmnopqrstuvwxyzabcdefg" con offset 33
     } else if(charToDecodeASCII >= 97 && charToDecodeASCII <= 122){
-      let valorDecode = (charToDecodeASCII- 97 -offset)%26 +97;
+      let valorDecode = (charToDecodeASCII- 122 -offset)%26 +122;
       strDecode = strDecode + String.fromCharCode(valorDecode);
-
       // retornar signos y espacios con offset 33
     } else {
       strDecode = strDecode + String.fromCharCode(charToDecodeASCII)
